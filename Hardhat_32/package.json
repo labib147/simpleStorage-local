@@ -1,0 +1,19 @@
+{
+  "name": "hardhat-32",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cook.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "yarn solcjs --bin --abi --include-path node_modules/ --base-path . -o . contracts/SimpleStorage.sol"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "ethers": "^5.7.0",
+    "pretier": "^0.0.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.24",
+    "solc": "^0.8.17"
+  }
+}
